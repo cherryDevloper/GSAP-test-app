@@ -1,11 +1,9 @@
-import CircleLoader from './components/CircleLoader';
-
+import ReactLogoSpinner from './components/reactLogoSpinner/ReactLogoSpinner';
+import './index.css';
 function App() {
   return (
-    <div className="App">
-      <div className="hero">
-        <CircleLoader />
-      </div>
+    <div>
+      <ReactLogoSpinner />
     </div>
   );
 }
